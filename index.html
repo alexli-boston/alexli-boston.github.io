@@ -18,7 +18,12 @@
         <div class="container">
             <h1 class="name">Alex Li</h1>
             <p class="tagline">Computer Science Student at Carnegie Mellon University</p>
-            <nav class="navbar">
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="navbar" id="navbar">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
@@ -88,8 +93,7 @@
                 <div class="project-card">
                     <h3>Cloud Computing & Microservices</h3>
                     <p>Created an application to elastically scale AWS EC2 instances based on a simulated demand curve. Also deployed and scaled microservices on Azure using Kubernetes.</p>
-                    <!-- <a href="#" class="project-link">View Project</a> -->
-                </div>
+                    </div>
                 <div class="project-card">
                     <h3>TartanAUV - Robotic Submarine</h3>
                     <p>Working on the CMU Robotic Submarine Team to refine reinforcement learning capabilities for object detection and recognition using Python and ROS.</p>
@@ -103,8 +107,7 @@
                 <div class="project-card">
                     <h3>Carnegie Mellon Racing (CMR)</h3>
                     <p>Created a C++ midpoint tracing algorithm using lidar data for CMR's driverless competition vehicle, improving real-time positioning performance.</p>
-                    <!-- <a href="#" class="project-link">View Project</a> -->
-                </div>
+                    </div>
             </div>
             <p>Please note, due to Academic integrity and privacy reasons, the files containing these projects are private. Please reach out to me to disucss further.</p>
         </section>
@@ -153,28 +156,6 @@
             </div>
         </section>
 
-        <!-- <section id="media-guide" class="section">
-            <h2>How to Embed Photos & Videos</h2>
-            <p style="text-align: center; max-width: 600px; margin: 0 auto 30px;">To add media to your site, you first need to place your files (e.g., `my-photo.jpg`) inside a folder in your project repository. A common practice is to create a folder named `assets`. Then, you can use the HTML tags below.</p>
-
-            <h3>Embedding a Photo</h3>
-            <p><strong>From a local file (in your 'assets' folder):</strong></p>
-            <pre><code>&lt;img src="assets/your-photo.jpg" alt="A descriptive caption" width="500"&gt;</code></pre>
-            
-            <p><strong>From an external hyperlink:</strong></p>
-            <pre><code>&lt;img src="https://www.example.com/images/photo.jpg" alt="An external photo" width="500"&gt;</code></pre>
-
-            <h3>Embedding a Video</h3>
-            <p><strong>From a local file (in your 'assets' folder):</strong></p>
-            <pre><code>&lt;video src="assets/your-video.mp4" width="600" controls&gt;
-    Your browser does not support the video tag.
-&lt;/video&gt;</code></pre>
-
-            <p><strong>From an external hyperlink (e.g., YouTube):</strong></p>
-            <p>For services like YouTube, use the "Embed" code they provide.</p>
-            <pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
-        </section> -->
-
         <section id="contact" class="section">
             <h2>Get In Touch</h2>
             <p>I'm always open to discussing projects or creative ideas. Feel free to reach out!</p>
@@ -192,6 +173,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
-
