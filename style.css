@@ -315,6 +315,26 @@ code {
     background-color: #0056b3;
 }
 
+/* Specific styling for social media logo links */
+.social-link.social-logo {
+    background-color: transparent;
+    padding: 0;
+}
+
+.social-link.social-logo svg {
+    width: 36px;
+    height: 36px;
+    fill: #0077b5; /* Official LinkedIn Blue */
+    transition: fill 0.3s ease;
+}
+
+.social-link.social-logo:hover {
+    background-color: transparent; /* Ensure no background on hover */
+}
+
+.social-link.social-logo:hover svg {
+    fill: #005582; /* Darker blue for hover state */
+}
 
 /* Footer Styles */
 .footer {
