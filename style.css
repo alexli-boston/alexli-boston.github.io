@@ -57,6 +57,40 @@ body {
     background-color: #555;
 }
 
+/* About Me Section Layout */
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#about h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#about img {
+    flex: 1;
+    min-width: 250px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#about p {
+    flex: 1.5;
+    min-width: 300px;
+}
+
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
 
 /* Section Styling */
 .section {
@@ -156,7 +190,7 @@ body {
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -165,7 +199,7 @@ body {
 }
 
 .skill-category h3 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 1.4rem;
     color: #555;
 }
@@ -310,3 +344,4 @@ code {
         font-size: 1.8rem;
     }
 }
+
