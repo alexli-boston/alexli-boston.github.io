@@ -180,8 +180,8 @@ body {
 .skill-tag {
     background-color: #e9ecef;
     color: #333;
-    padding: 8px 15px;
-    border-radius: 20px;
+    padding: 4px 10px;
+    border-radius: 10px;
     font-size: 0.9rem;
     font-weight: 500;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -287,8 +287,7 @@ code {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 5px 0;
 }
 
 /* Responsive Design */
@@ -311,4 +310,3 @@ code {
         font-size: 1.8rem;
     }
 }
-
