@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Li - Website</title>
+    <title>Alex Li - Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     <header class="header">
         <div class="container">
             <h1 class="name">Alex Li</h1>
-            <p class="tagline">Web Developer | Tech Enthusiast | Lifelong Learner</p>
+            <p class="tagline">Computer Science Student at Carnegie Mellon University</p>
         </div>
     </header>
 
@@ -22,7 +22,7 @@
         <section id="about" class="section">
             <h2>About Me</h2>
             <p>
-                Hello! I'm a passionate developer based in [Your City]. I love building beautiful and functional websites. My journey into web development started a few years ago, and I've been hooked ever since. When I'm not coding, you can find me exploring new technologies, reading, or hiking.
+                Hello! I'm Alex, a Computer Science student at Carnegie Mellon University with a passion for distributed systems, robotics, and high-performance computing. I have hands-on experience developing scalable applications, working on autonomous vehicle systems, and diving deep into memory management. When I'm not coding, you can find me playing ice hockey, hiking, or working on cars.
             </p>
         </section>
 
@@ -30,27 +30,138 @@
             <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>A brief description of your first project. Talk about the technology stack used and what the project accomplishes.</p>
+                    <h3>Cloud Computing & Microservices</h3>
+                    <p>Created an application to elastically scale AWS EC2 instances based on a simulated demand curve. Also deployed and scaled microservices on Azure using Kubernetes.</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>A brief description of your second project. What problem does it solve? What did you learn from building it?</p>
+                    <h3>TartanAUV - Robotic Submarine</h3>
+                    <p>Working on the CMU Robotic Submarine Team to refine reinforcement learning capabilities for object detection and recognition using Python and ROS.</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
                 <div class="project-card">
-                    <h3>Project Three</h3>
-                    <p>A brief description of your third project. Highlight any unique features or challenges you overcame.</p>
+                    <h3>High-Performance Message Queue</h3>
+                    <p>Built a multi-threaded message queue and broker in C++ with persistent caching to accelerate repeated 3D model computations during my internship at Poisson Software Co.</p>
                     <a href="#" class="project-link">View Project</a>
                 </div>
             </div>
         </section>
 
+        <section id="experience" class="section">
+            <h2>Work Experience</h2>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <h3>Software R&D Intern</h3>
+                    <h4>PTC (Onshape) | Jun 2025 - Aug 2025</h4>
+                    <ul>
+                        <li>Spearheaded development of an all new Notes Panel with Markdown support, granular permissions, and preview modes.</li>
+                        <li>The new Notes Panel required changes to server-side Java code, as well as significant changes to client-side JavaScript, HTML, and CSS, including a new module in AngularJS.</li>
+                        <li>Revamped admin page UI and implemented server-side sorting, pagination, and search in MongoDB for improved scalability.</li>
+                        <li>Included below is a limited video demo of the scope of this Notes Panel project.</li>
+                    </ul>
+                    <ul>
+                        <p><a href="https://forum.onshape.com/discussion/28640/improvements-to-onshape-august-29th-2025/p1?wvideo=8r65qk1n4o"><img src="https://embed-ssl.wistia.com/deliveries/b4ad18a2b2e3f5c8b8ff96e8c4443f34faf9141f.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button_rounded=1&image_play_button_color=1651B0e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://forum.onshape.com/discussion/28640/improvements-to-onshape-august-29th-2025/p1?wvideo=8r65qk1n4o">Source: Improvements to Onshape - August 29th, 2025 — Onshape</a></p>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Research Assistant</h3>
+                    <h4>CMU Search-Based Planning Lab | May 2025 - Aug 2025</h4>
+                    <ul>
+                        <li>Implemented and evaluated dozens of sampling-based algorithms for single-agent start-to-goal search.</li>
+                        <li>Investigated novel conflict-resolution strategies for multi-agent planning under uncertainty.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Robotics/Computer Vision Intern</h3>
+                    <h4>Dassault Systemes (Solidworks) | Dec 2024 - Jan 2025</h4>
+                    <ul>
+                        <li>Designed and developed single- and multi-camera pose estimation using pure computer vision techniques in Python/C++ with OpenCV.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>C++ R&D Development Intern</h3>
+                    <h4>Poisson Software Co. | Jun 2024 - Aug 2024</h4>
+                    <ul>
+                        <li>Built a high-performance, multi-threaded message queue and broker in C++.</li>
+                        <li>Developed persistent caching to accelerate repeated 3D model computations.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">C/C++</span>,
+                        <span class="skill-tag">Go (Golang)</span>,
+                        <span class="skill-tag">Python</span>,
+                        <span class="skill-tag">Java</span>,
+                        <span class="skill-tag">JavaScript</span>,
+                        <span class="skill-tag">TypeScript</span>,
+                        <span class="skill-tag">HTML/CSS</span>,
+                        <span class="skill-tag">Standard ML (Functional programming language)</span>,
+                        <span class="skill-tag">LaTeX</span>,
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Git</span>,
+                        <span class="skill-tag">Docker</span>,
+                        <span class="skill-tag">Kubernetes</span>,
+                        <span class="skill-tag">Spark</span>,
+                        <span class="skill-tag">Angular</span>,
+                        <span class="skill-tag">PyTorch</span>,
+                        <span class="skill-tag">ROS</span>,
+                        <span class="skill-tag">OpenCV</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Cloud</h3>
+                     <div class="skills-grid">
+                        <span class="skill-tag">MySQL</span>,
+                        <span class="skill-tag">MongoDB</span>,
+                        <span class="skill-tag">Redis</span>,
+                        <span class="skill-tag">AWS</span>,
+                        <span class="skill-tag">Azure</span>,
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="media-guide" class="section">
+            <h2>How to Embed Photos & Videos</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto 30px;">To add media to your site, you first need to place your files (e.g., `my-photo.jpg`) inside a folder in your project repository. A common practice is to create a folder named `assets`. Then, you can use the HTML tags below.</p>
+
+            <h3>Embedding a Photo</h3>
+            <p><strong>From a local file (in your 'assets' folder):</strong></p>
+            <pre><code>&lt;img src="assets/your-photo.jpg" alt="A descriptive caption" width="500"&gt;</code></pre>
+            
+            <p><strong>From an external hyperlink:</strong></p>
+            <pre><code>&lt;img src="https://www.example.com/images/photo.jpg" alt="An external photo" width="500"&gt;</code></pre>
+
+            <h3>Embedding a Video</h3>
+            <p><strong>From a local file (in your 'assets' folder):</strong></p>
+            <pre><code>&lt;video src="assets/your-video.mp4" width="600" controls&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
+
+            <p><strong>From an external hyperlink (e.g., YouTube):</strong></p>
+            <p>For services like YouTube, use the "Embed" code they provide.</p>
+            <pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+        </section> -->
+
         <section id="contact" class="section">
             <h2>Get In Touch</h2>
-            <p>I'm always open to discussing new projects or creative ideas. Feel free to reach out!</p>
-            <a href="mailto:your.email@example.com" class="email-link">your.email@example.com</a>
+            <p>I'm always open to discussing projects or creative ideas. Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:alexli.boston@gmail.com" class="email-link">alexli.boston@gmail.com</a>
+                <a href="https://linkedin.com/in/alex-li-boston/" target="_blank" class="social-link">LinkedIn</a>
+            </div>
         </section>
     </main>
 
@@ -62,3 +173,4 @@
 
 </body>
 </html>
+
