@@ -57,6 +57,28 @@ body {
     background-color: #555;
 }
 
+/* Hamburger Menu Button (hidden on desktop) */
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 101;
+}
+
+.hamburger .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
 /* About Me Section Layout */
 #about {
     display: flex;
@@ -346,22 +368,55 @@ code {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header {
+        padding-bottom: 0.5rem;
+    }
+
     .header .name {
         font-size: 2rem;
     }
 
     .header .tagline {
         font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
     
+    .hamburger {
+        display: block;
+    }
+
     .navbar {
-        display: flex;
+        display: none; /* Hide nav by default on mobile */
         flex-direction: column;
-        gap: 10px;
+        width: 100%;
+        margin-top: 10px;
+        gap: 0;
+    }
+    
+    .navbar.active {
+        display: flex; /* Show when hamburger is clicked */
+    }
+
+    .navbar a {
+        margin: 0;
+        padding: 12px 10px;
+        border-top: 1px solid #4a4a4a;
+    }
+
+    /* Animate hamburger into an 'X' */
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .section h2 {
         font-size: 1.8rem;
     }
 }
-
