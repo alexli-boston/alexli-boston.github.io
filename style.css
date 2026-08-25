@@ -174,6 +174,28 @@ body {
     text-decoration: underline;
 }
 
+/* Project Video Embeds */
+.project-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio, scales with card width */
+    height: 0;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-top: 15px;
+    background-color: #000;
+}
+
+.project-video iframe,
+.project-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 /* Experience Section */
 .experience-container {
     display: grid;
